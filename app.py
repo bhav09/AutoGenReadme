@@ -175,12 +175,7 @@ if __name__ == '__main__':
 
         repo_context = get_text('repo_context', 'Context', 100)
         col1, col2 = st.columns([1, 2.5])
-        gen_readme = col1.button('Generate README')
-        if gen_readme:
-            # print(repo_context)
-            generate_readme()
         deep_read = col2.checkbox('Deep Read')
-
         st.markdown(
             """
             <style>
@@ -191,7 +186,12 @@ if __name__ == '__main__':
             """,
             unsafe_allow_html=True
         )
-        st.write("✅ README Generated!")
+
+        gen_readme = col1.button('Generate README')
+        if gen_readme:
+            # print(repo_context)
+            generate_readme()
+            st.write("✅ README Generated!")
 
         col1, col2 = st.columns([1, 2.5])
         push_button = col1.button('Push Repo', key='push_repo')
