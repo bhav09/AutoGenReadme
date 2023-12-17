@@ -1,0 +1,9 @@
+📁 AutoGenReadme/
+├─📄 LICENSE
+├─📄 requirements.txt
+├─📄 tree_maker.py
+├─📄 repo_cloner.py
+├─📄 README.md
+├─📄 .gitignore
+├─📄 app.py
+└─📄 tree.txt
