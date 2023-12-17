@@ -194,7 +194,8 @@ if __name__ == '__main__':
         st.write("✅ README Generated!")
 
         col1, col2 = st.columns([1, 2.5])
-        push_button = col1.button('Push Repo', on_click=git_push, key='push_repo')
+        push_button = col1.button('Push Repo', key='push_repo')
         download_button = col2.button('Download README', on_click=download_readme, key='download_readme')
-        if download_button:
+        if push_button:
+            git_push()
             st.write("✅ Repo Pushed!")
