@@ -1,0 +1,11 @@
+matplotlib==3.7.2
+numpy==1.24.2
+pandas==1.5.3
+plotly==5.15.0
+pypdf==3.12.2
+requests==2.31.0
+urllib3==1.26.11
+scikit-learn==1.2.2
+streamlit==1.24.1
+bardapi~=0.1.38
+seedir~=0.4.2
