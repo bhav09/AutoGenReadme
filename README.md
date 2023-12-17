@@ -4,9 +4,9 @@ Tired of staring at a blank README file, unsure where to begin?  **AutoGenReadme
 
 **What's in the box?**
 
-* ** Automated Git:** Clone and push repositories with ease – let AutoGenReadme handle the grunt work. 
-* ** Directory Tree Curation:** Navigate your project effortlessly with a structured directory tree optimized for OS contributions. ️
-* ** LLM-powered README Generation:** Bard, the friendly LLM from Google AI, analyzes your code and crafts a captivating README that tells your project's story. 
+* **Automated Git:** Clone and push repositories with ease – let AutoGenReadme handle the grunt work. 
+* **Directory Tree Curation:** Navigate your project effortlessly with a structured directory tree optimized for OS contributions. ️
+* **LLM-powered README Generation:** Bard, the friendly LLM from Google AI, analyzes your code and crafts a captivating README that tells your project's story. 
 * **✨ Easy-to-use UI:** Streamlit provides a slick interface for interacting with AutoGenReadme – no coding required! 
 
 **Getting Started:**
@@ -31,5 +31,5 @@ Tired of staring at a blank README file, unsure where to begin?  **AutoGenReadme
 * bardapi~=0.1.38
 * seedir~=0.4.2
 
-**Say goodbye to README writer's block!  AutoGenReadme is your ticket to crafting stunning and informative READMEs that showcase your projects the way they deserve. **
 
+**Say goodbye to README writer's block!  AutoGenReadme is your ticket to crafting stunning and informative READMEs that showcase your projects the way they deserve.**

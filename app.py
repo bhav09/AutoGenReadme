@@ -67,8 +67,9 @@ def generate_readme():
     all_imports = ''
     if deep_read:
         prompt = f"""
-        Write an interesting README file for a github repository: "{clone_to}". 
-        It consists: {repo_context}
+        Write an interesting README file for a github repository: "{clone_to}".
+        Do not add unnecessary spaces while writing readme (especially while writing bullets).
+        Context: {repo_context}
         
         Instructions:
         1. Be concise and short in response
@@ -92,7 +93,8 @@ def generate_readme():
 
         prompt = f"""
         Write an interesting README file for a github repository: "{clone_to}". 
-        It consists: {repo_context}
+        Do not add unnecessary spaces while writing readme (especially while writing bullets).
+        Context: {repo_context}
         
         Instructions:
         1. Be concise and short in response
@@ -191,11 +193,11 @@ if __name__ == '__main__':
         if gen_readme:
             # print(repo_context)
             generate_readme()
-            st.write("✅ README Generated!")
+        st.write("✅ README Generated!")
 
         col1, col2 = st.columns([1, 2.5])
         push_button = col1.button('Push Repo', key='push_repo')
         download_button = col2.button('Download README', on_click=download_readme, key='download_readme')
         if push_button:
             git_push()
-            st.write("✅ Repo Pushed!")
+        st.write("✅ Repo Pushed!")
