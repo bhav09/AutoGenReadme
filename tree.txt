@@ -1,6 +1,8 @@
 📁 AutoGenReadme/
 ├─📄 LICENSE
 ├─📄 requirements.txt
+├─📁 __pycache__/
+│ └─📄 tree_maker.cpython-311.pyc
 ├─📄 tree_maker.py
 ├─📄 repo_cloner.py
 ├─📄 README.md
