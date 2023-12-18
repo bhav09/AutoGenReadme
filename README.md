@@ -4,16 +4,16 @@ Tired of staring at a blank README file?  Let AutoGenReadme be your AI co-pilot,
 
 ### ⚡ Features that'll make you do a happy dance:
 
-* ** AutoGit:** Clone and push repos with ease - no more terminal mumbo jumbo!
-* ** Organized Folders:** Explore your project's directory structure like a pro, thanks to curated folder trees (see `tree.txt` for details).
-* **🪄 LLM-powered README:** Bard, the superpowered LLM, analyzes your code and whips up a stunning README in seconds (downloadable PDF and text formats!).
-* ** Streamlit UI:** Tweak your README with a user-friendly interface - drag, drop, and watch your doc flourish!
+* **AutoGit:** Clone and push repos with ease - no more terminal mumbo jumbo!
+* **Organized Folders:** Explore your project's directory structure like a pro, thanks to curated folder trees (see `tree.txt` for details).
+* **LLM-powered README:** Bard, the superpowered LLM, analyzes your code and whips up a stunning README in seconds (downloadable PDF and text formats!).
+* **Streamlit UI:** Tweak your README with a user-friendly interface - drag, drop, and watch your doc flourish!
 
 ###  Getting Started:
 
 1. **Git it set up:** Make sure your system is ready to rock with Git.
 2. **Fuel the Bard:** Create a `credentials.json` file with your API tokens (instructions inside).
-3. **Let the magic unfold:** Run `python autogenreadme.py` and witness the README magic!
+3. **Let the magic unfold:** Run `streamlit run app.py` and witness the README magic!
 
 ###  Dependencies:
 
