@@ -7,7 +7,7 @@ Tired of staring at a blank README file?  Let AutoGenReadme be your AI co-pilot,
 * **AutoGit:** Clone and push repos with ease - no more terminal mumbo jumbo!
 * **Organized Folders:** Explore your project's directory structure like a pro, thanks to curated folder trees (see `tree.txt` for details).
 * **LLM-powered README:** Bard, the superpowered LLM, analyzes your code and whips up a stunning README in seconds (downloadable PDF and text formats!).
-* **Streamlit UI:** Tweak your README with a user-friendly interface - drag, drop, and watch your doc flourish!
+* **Streamlit UI:** Tweak your README with a user-friendly interface!
 
 ###  Getting Started:
 
